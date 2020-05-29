@@ -7,6 +7,7 @@ import Modelo.Chapeuzinho;
 import Modelo.Inimigo;
 import Modelo.Lobisomem;
 import Modelo.ManaException;
+import Modelo.MonstroMarinho;
 import Modelo.Professor;
 import Modelo.UpgradeException;
 import Modelo.Vampiro;
@@ -32,8 +33,13 @@ public class Principal {
                     add(new Lobisomem("Lobisomem do lago", defaultlife, randomMana, randomDmg));
                     add(new Vampiro("Vampiro da taverna", defaultlife, randomMana, randomMagic,randomDmg));
                     add(new Vampiro("Vampiro das masmorras", defaultlife, randomMana, randomMagic,randomDmg));
+                    add(new MonstroMarinho("Monstro do tietê", defaultlife, randomMana, randomMagic,randomDmg));
+                    add(new MonstroMarinho("Adormecido das geleiras", defaultlife, randomMana, randomMagic,randomDmg));
                     add(new Professor("Professor de história", defaultlife, randomMana, randomDmg));
                     add(new Professor("Professor de programação", defaultlife, randomMana, randomDmg));
+                    add(new Professor("Professor de programação", defaultlife, randomMana, randomDmg));
+                    add(new Professor("Professor de programação", defaultlife, randomMana, randomDmg));
+                    
                 }};
             
 		introducao();
